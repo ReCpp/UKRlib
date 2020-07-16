@@ -7,3 +7,4 @@
 #define float плаваючий
 #define string рядок
 #define const конст
+#define void порожнеча

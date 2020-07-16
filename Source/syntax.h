@@ -33,7 +33,7 @@
 
 #define typedef тип_визначення
 
-
+#define return повернути
 
 
 
