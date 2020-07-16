@@ -1,2 +1,2 @@
 # UKRlib
-Ukraine syntax for C++ (std namespace only)
+Ukrainian syntax for C++ (std namespace only)
