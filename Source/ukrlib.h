@@ -9,7 +9,7 @@
 	   \_______/		|__|   \_\			|__|   \_|
 */
 
-#define int öèôðà
+#define int цифра
 #define bool ÷iäà
 #define long äîâãèé
 #define char ñèìâîë
