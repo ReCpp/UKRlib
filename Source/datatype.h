@@ -1,0 +1,9 @@
+#define int цифра
+#define long довгий
+#define char символ
+#define short короткий
+#define size_t розмір
+#define double подвійний
+#define float плаваючий
+#define string рядок
+#define const конст
