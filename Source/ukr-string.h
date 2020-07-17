@@ -6,18 +6,18 @@
 //std::string method`s
 #define to_string в_рядок
 #define atoi до_числа
-#define value_type
-#define traitss_type
-#define allocator_type
-#define reference
-#define const_reference
-#define pointer
-#define const_pointer
-#define iterator
-#define const_iterator
-#define reverse_iterator
-#define const_reverse_iterator
-#define difference_type
+#define value_type тип_значення
+#define traitss_type тип_тратис
+#define allocator_type алокатор_типу
+#define reference довідник
+#define const_reference конст_посилання
+#define pointer покажчик
+#define const_pointer конст_покажчик
+#define iterator ітератор
+#define const_iterator конст_ітератор
+#define reverse_iterator зворотний_ітератор
+#define const_reverse_iterator конст_зворотний_ітератор
+#define difference_type різниця_тип
 #define size_type розмір_типу
 /*********************************************************************/
 
