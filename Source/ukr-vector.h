@@ -30,7 +30,7 @@
 #define shrink_to_fit скорочуватися_щоб_підходити
 //---------------------------------------------------------------------
 //Модификаторы
-#define clear ясний
+#define clear очистити
 #define insert вставити
 #define erase стерти
 #define push_back відсунути
