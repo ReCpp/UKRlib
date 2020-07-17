@@ -49,13 +49,11 @@
 #define sort_heap сортувати купу
 //---------------------------------------------------------------------
 //Операции отношений
-#define lexicographical_compare	лексикографічний_порівняти//йобаныйврот какое название
+#define lexicographical_compare	лексикографічний_порівняч//йобаныйврот какое название
 #define max макс //иди нахуй
 #define max_element макс_елемент 
 #define min мінімум
 #define min_element мінімальний_елемент
 #define next_permutation наступна_перестановка
 #define prev_permutation попередня_перестановка
-
-
 
