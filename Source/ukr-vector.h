@@ -1,6 +1,8 @@
 #include <vector>
 
 #pragma once
+//by FirstAfterGod2501
+
 //Методы vector
 
 
