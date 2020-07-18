@@ -1,3 +1,5 @@
+#include <string>
+
 //std::string
 
 #define string рядок //Может использоваться как конструктор/деструктор

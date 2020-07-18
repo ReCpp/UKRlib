@@ -35,7 +35,9 @@
 
 #define return повернути
 
-
+#define new новий
+#define delete видалити
+#define nullptr нульптр
 
 
 

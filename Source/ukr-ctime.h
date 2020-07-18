@@ -1,3 +1,5 @@
+#include <ctime>
+
 #define __daylight __деннесвітло
 #define __timezone __часовазона
 #define cloct_t час_т
