@@ -4,83 +4,86 @@
 
 //c memory lib
 //---------------------------------------------------------
+//БЕТА этого перевода,ибо я ебал в рот гугл переводчик. Гугл и их переводчик по-отдельности.
 // Pointer traits
-#define pointer_traits
+#define pointer_traits риси_вказівника
 
 //Garbage collector support
-#define pointer_safety
+#define pointer_safety безпека_вказівника
+
 
 //Allocators
-#define allocator
-#define allocator_traits
-#define allocator_arg_t
-#define allocator_arg
-#define uses_allocator
+#define allocator розподільник
+#define allocator_traits риси_розподільника
+#define allocator_arg_t розподільник_арг_т
+#define allocator_arg розподільник_арг
+#define uses_allocator використовує_алокатор
 
 //Uninitialized storage
-#define raw_storage_iterator
+#define raw_storage_iterator ітератор зберігання сировини
 
 //Smart pointers (!!!)
-#define unique_ptr
-#define shared_ptr
-#define weak_ptr
-#define auto_ptr
+#define unique_ptr//переводчик послал меня нахуй
+#define shared_ptr//и ещё раз
+#define weak_ptr слабкий_птр//поправь птр по нормальному
+#define auto_ptr автоматичний_ptr
 
 //Helper classes
-#define atomic
-#define owner_less
-#define enable_shared_from_this
-#define bad_weak_ptr
-#define default_delete
-#define hash
+#define atomic атомний
+#define owner_less власник менше
+#define enable_shared_from_this увімкнути_спільний_доступ_до_цього
+#define bad_weak_ptr поганий_слабкий_птр // осуждаю кибербулинг
+#define default_delete видалити_за_замовчуванням
+#define hash хеш
 //---------------------------------------------------------
 //
 //Functions//
 //
 //Miscellaneous
-#define to_address
-#define addressof
-#define align
-#define assume_aligned
+#define to_address адресувати
+#define addressof // и ещё раз
+#define align вирівняти
+#define assume_aligned припустити_порівняти
 
 //Garbage collector support
-#define declare_reachable
-#define undeclare_reachable
-#define declare_no_pointers
-#define get_poiner_safety
+#define declare_reachable оголосити_доступним
+#define undeclare_reachable визнати_недоступним
+#define declare_no_pointers заявити_но_показів
+#define get_poiner_safety отримати_безпеку_вказівника
 
 //Uninitialized storage
-#define uninitialized_copy
-#define uninitialized_copy_n
-#define uninitialized_fill
-#define uninitialized_fill_n
-#define uninitialized_move
-#define uninitialized_move_n
-#define uninitialized_default_construct
-#define uninitialized_default_construct_n
-#define uninitialized_value_construct
-#define uninitialized_value_construct_n
+#define uninitialized_copy неініціалізована_копія
+#define uninitialized_copy_n неініціалізований_copy_n
+#define uninitialized_fill неініціалізований_заповнення
+#define uninitialized_fill_n неініціалізований_заповнення_н
+#define uninitialized_move неініціалізований хід
+#define uninitialized_move_n неініціалізований хід_н
+#define uninitialized_default_construct неініціалізована_конструкція_за_замовчуванням
+#define uninitialized_default_construct_n неініціалізована_конструкція_за_замовчуванням_н
+#define uninitialized_value_construct неініціалізована_конструкція_значення
+#define uninitialized_value_construct_n неініціалізована_конструкція_значення_n
 
-//Сука, как же я заебался писать эти uninitialized, просто пиздец нахуй. Переведешь ты) 
+//Сука, как же я заебался писать эти uninitialized, просто пиздец нахуй. Переведешь ты) Как скажешь. Сука.
 
-#define destroy_at
-#define destroy
-#define destroy_n
-#define get_temporary_buffer
-#define return_temporary_buffer
+#define destroy_at знищити_ат
+#define destroy знищити
+#define destroy_n знищити_н
+#define get_temporary_buffer отримати_тимчасовий_буфер
+#define return_temporary_buffer повернути тимчасовий буфер
 
 //Smart pointer non-member operation
-#define make_unique
-#define make_unique_for_overwrite
-#define make_shared
-#define make_shared_for_overwrite
-#define allocate_shared
-#define allocate_shared_for_overwrite
-#define static_pointer_cast
-#define dynamic_pointer_cast
-#define const_poinet_cast
-#define reinterpret_pointer_cast
-#define get_deleter
-#define swap
+#define make_unique зробити_унікальним
+#define make_unique_for_overwrite зробити_унікальним_для_перезапису
+#define make_shared зробити спільним // but does it DJENT
+#define make_shared_for_overwrite зробити_спільним_для_перезапису
+#define allocate_shared розподілити_поділений
+#define allocate_shared_for_overwrite виділити_спільне_для_перезапису
+#define static_pointer_cast статичний_покажчик_ролі
+#define dynamic_pointer_cast динамічний_пойнт_каст
+#define const_poinet_cast // ya idy naxui
+#define reinterpret_pointer_cast переосмислити_вказівник
+#define get_deleter отримати_делетер
+#define swap міняти_місцями
+//дело сделано
 
 
