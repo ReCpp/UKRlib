@@ -1,4 +1,4 @@
-#Ukrainian syntax for C++ (std namespace only)
+# Ukrainian syntax for C++ (std namespace only)
 
 Библиотека для `С++` написаная чисто на `#define`, которая заменяет стандартный синтаксис С++ на украинский язык.
 В планах перевести все пространство имен std
