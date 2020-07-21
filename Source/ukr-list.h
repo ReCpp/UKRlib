@@ -1,39 +1,39 @@
-//std::list
-//-------------------------------------------------------
+// std::list
+// -------------------------------------------------------
 #define list список
-//-------------------------------------------------------
+// -------------------------------------------------------
 //
-//Elements access
+// Elements access
 #define front перед
 #define back назад
 
-//-------------------------------------------------------
+// -------------------------------------------------------
 //
-//Iterators
+// Iterators
 #define begin почати
 #define end кінець
-#define rend //?
+#define rend // ?
 
-//Capacity
+// Capacity
 #define empty порожній
 #define size розмір
 #define max_size макс_розмір
 
-//Modifiers
+// Modifiers
 #define clear очистити
 #define insert вставити
-#define emplace //?
+#define emplace // ?
 #define erase стерти
 #define push_back відсунути
 #define emplace_back
 #define pop_back відскочити_назад
 #define push_front
-#define emplace_front //?
+#define emplace_front // ?
 #define pop_front
 #define resize змінити_розмір
 #define swap своп
 
-//Operations
+// Operations
 #define merge
 #define splice
 #define remove
