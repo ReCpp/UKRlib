@@ -1,8 +1,8 @@
 #include <ctime>
 
-#define __daylight __деннесвітло
-#define __timezone __часовазона
-#define cloct_t час_т
-#define ctime с_час
-#define srand с_випадоковий
-#define time час
+#define __деннесвітло __daylight
+#define __часовазона __timezone
+#define час_т cloct_t
+#define с_час ctime
+#define с_випадоковий srand
+#define час time
