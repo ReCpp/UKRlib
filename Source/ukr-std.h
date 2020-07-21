@@ -1,8 +1,8 @@
-#define std стд
+#define стд std
 
-#define static_cast статичний_кидок 
-#define const_cast конст_кидок
-#define dynamic_cast динамічний_кидок
-#define reinterpret_cast переосмисленний_кидок
+#define статичний_кидок static_cast
+#define конст_кидок const_cast
+#define динамічний_кидок dynamic_cast
+#define переосмисленний_кидок reinterpret_cast
 
-#define initializer_list список_ініціалізації
+#define список_ініціалізації initializer_list

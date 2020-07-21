@@ -1,59 +1,58 @@
 #pragma once
-// Методы algorithm 
+// Методы algorithm
 // by FirstAfterGod2501
 // ---------------------------------------------------------------------
 // Не изменяющие последовательные операции
-#define adjacent_find сусідній_визначити
-#define count рахувати
-#define equal рівний
-#define find знайти
-#define for_each для_кожного
-#define mismatch невідповідність
-#define search пошук
+#define сусідній_визначити adjacent_find
+#define рахувати count
+#define рівний equal
+#define знайти find
+#define для_кожного for_each
+#define невідповідність mismatch
+#define пошук search
 // ---------------------------------------------------------------------
 // Изменяющие последовательные операции
-#define fill заливка
-#define generate генерувати
-#define iter_swap iter_своп
-#define remove видалити
-#define reverse зворотний
-#define replace замінити
-#define rotate обертати
-#define swap міняти_місцями
-#define swap_ranges діапазони_змін
-#define transform перетворення
-#define unique унікальний
+#define заливка fill
+#define генерувати generate
+#define iter_своп iter_swap
+#define видалити remove
+#define зворотний reverse
+#define замінити replace
+#define обертати rotate
+#define міняти_місцями swap
+#define діапазони_змін swap_ranges
+#define перетворення transform
+#define унікальний unique
 // ---------------------------------------------------------------------
 // Операции сортировки
-#define nth_element n-й_елемент
-#define sort сортувати
-#define stable_sort стабільний_сорт
+#define n-й_елемент nth_element
+#define сортувати sort
+#define стабільний_сорт stable_sort
 // ---------------------------------------------------------------------
 // Бинарные операции поиска
-#define binary_search двійковий_пошук
-#define equal_range рівний_помаранчевий
-#define lower_bound нижній_бійний
-#define upper_bound верхній_бійний
+#define двійковий_пошук binary_search
+#define рівний_помаранчевий equal_range
+#define нижній_бійний lower_bound
+#define верхній_бійний upper_bound
 // ---------------------------------------------------------------------
 // Операции слияния
-#define includes включає
-#define merge злиття
-#define set_difference встановити_різницю
-#define set_intersection встановити_перехрестя
-#define set_union встановити_союз // Нерушимый республик свободных
+#define включає includes
+#define злиття merge
+#define встановити_різницю set_difference
+#define встановити_перехрестя set_intersection
+#define встановити_союз set_union // Нерушимый республик свободных
 // ---------------------------------------------------------------------
 // Кучи
-#define make_heap зробити_купу
-#define pop_heap поп_купи // маамкупи
-#define push_heap штовхати купу
-#define sort_heap сортувати купу
+#define зробити_купу make_heap
+#define поп_купи pop_heap // маамкупи
+#define штовхати push_heap купу
+#define сортувати sort_heap купу
 // ---------------------------------------------------------------------
 // Операции отношений
-#define lexicographical_compare	лексикографічний_порівняч// йобаныйврот какое название
-#define max макс // иди нахуй
-#define max_element макс_елемент 
-#define min мінімум
-#define min_element мінімальний_елемент
-#define next_permutation наступна_перестановка
-#define prev_permutation попередня_перестановка
-
+#define лексикографічний_порівняч// lexicographical_compare йобаныйврот какое название
+#define макс max // иди нахуй
+#define макс_елемент max_element
+#define мінімум min
+#define мінімальний_елемент min_element
+#define наступна_перестановка next_permutation
+#define попередня_перестановка prev_permutation
