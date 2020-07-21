@@ -1,6 +1,8 @@
-/*
+/**
  * Эта библиотка включает в себя все библиотки UKRLIB, сделано для удобства
- Cчитай,включаешь std
+ * Cчитай,включаешь std.
+ * @author Dian Lozinskiy
+ * @version In develop
  */
 
 #pragma once
