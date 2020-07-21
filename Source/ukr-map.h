@@ -1,39 +1,39 @@
 #include <map>
 
-//std::map
-//by Divan Lozinskiy
-//---------------------------------------------------
+// $1
+// $1
+// $1
 
-//Member classes
+// $1
 #define value_compare
 
-//Element access
+// $1
 #define at цей
 #define operator оператор
 
-//Iterators
+// $1
 #define begin початок
 #define end кінець
-#define rend //?
+#define rend // $1
 
-//Capacity
+// $1
 #define empty порожній
 #define size розмір
 #define max_size макс_розмір
 
-//Modifiers
+// $1
 #define clear очистити
 #define insert втсавити
-#define insert_of_assign //?
-#define emplace //?
-#define emplace_hint //?
-#define try_emplace //?
+#define insert_of_assign // $1
+#define emplace // $1
+#define emplace_hint // $1
+#define try_emplace // $1
 #define erase стерти
 #define swap своп
 #define extract витягти
 #define merge перейти
 
-//Lookup
+// $1
 #define count рахунок
 #define find знайти
 #define contains вміст
@@ -41,6 +41,6 @@
 #define lower_bound нижній_бійний
 #define upper_bound верхній_бійний
 
-//Observers
-#define key_comp //?
-#define value_comp //?
+// $1
+#define key_comp // $1
+#define value_comp // $1
