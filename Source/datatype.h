@@ -1,22 +1,22 @@
-#define int цифра
-#define long довгий
-#define char символ
-#define short короткий
-#define size_t розмір
-#define double подвійний
-#define float плаваючий
-#define string рядок
-#define const конст
-#define void порожнеча
+#define цифра int
+#define довгий long
+#define символ char
+#define короткий short
+#define розмір size_t
+#define подвійний double
+#define плаваючий float
+#define рядок string
+#define конст const
+#define порожнеча void
 
 // Non standart types
-#define int8_t інт8_т
-#define int16_t інт16_т
-#define int32_t інт32_т
-#define int64_t інт64_т
+#define інт8_т int8_t
+#define інт16_т int16_t
+#define інт32_т int32_t
+#define інт64_т int64_t
 
 // unsigned
-#define uint8_t юінт8_т
-#define uint16_t юінт16_т
-#define uint32_t юінт32_т
-#define uint64_t юінт64_т
+#define юінт8_т uint8_t
+#define юінт16_т uint16_t
+#define юінт32_т uint32_t
+#define юінт64_т uint64_t
