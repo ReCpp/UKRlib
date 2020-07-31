@@ -1,46 +1,46 @@
 #include <map>
 
-//std::map
-//by Divan Lozinskiy
-//---------------------------------------------------
+// std::map
+// by Divan Lozinskiy
+// ---------------------------------------------------
 
-//Member classes
-#define value_compare
+// Member classes
+#define PATTERN_WILL_BE_ADDED_LATER value_compare
 
-//Element access
-#define at цей
-#define operator оператор
+// Element access
+#define цей at
+#define оператор operator
 
-//Iterators
-#define begin початок
-#define end кінець
-#define rend //?
+// Iterators
+#define початок begin
+#define кінець end
+#define // rend ?
 
-//Capacity
-#define empty порожній
-#define size розмір
-#define max_size макс_розмір
+// Capacity
+#define порожній empty
+#define розмір size
+#define макс_розмір max_size
 
-//Modifiers
-#define clear очистити
-#define insert втсавити
-#define insert_of_assign //?
-#define emplace //?
-#define emplace_hint //?
-#define try_emplace //?
-#define erase стерти
-#define swap своп
-#define extract витягти
-#define merge перейти
+// Modifiers
+#define очистити clear
+#define втсавити insert
+#define PATTERN_WILL_BE_ADDED_LATER insert_of_assign // ?
+#define PATTERN_WILL_BE_ADDED_LATER emplace // ?
+#define PATTERN_WILL_BE_ADDED_LATER emplace_hint // ?
+#define PATTERN_WILL_BE_ADDED_LATER try_emplace // ?
+#define стерти erase
+#define своп swap
+#define витягти extract
+#define перейти merge
 
-//Lookup
-#define count рахунок
-#define find знайти
-#define contains вміст
-#define equal_range вирівняти_дистанцію
-#define lower_bound нижній_бійний
-#define upper_bound верхній_бійний
+// Lookup
+#define рахунок count
+#define знайти find
+#define вміст contains
+#define вирівняти_дистанцію equal_range
+#define нижній_бійний lower_bound
+#define верхній_бійний upper_bound
 
-//Observers
-#define key_comp //?
-#define value_comp //?
+// Observers
+#define PATTERN_WILL_BE_ADDED_LATER key_comp // ?
+#define PATTERN_WILL_BE_ADDED_LATER value_comp // ?

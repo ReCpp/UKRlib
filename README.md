@@ -1,7 +1,25 @@
-# Ukrainian syntax for C++ (std namespace only)
+# Ukrainian syntax for C++
 
-Библиотека для `С++` написаная чисто на `#define`, которая заменяет стандартный синтаксис С++ на украинский язык.
-В планах перевести все пространство имен std
+This library has been written only by using `#define`. It changes default C++ syntax (keywords and names) to Ukrainian language.
 
-1. Для использования используйте команду `git clone https://github.com/ReCpp/UKRlib.git`
-2. В коде подключите `#include "ukrlib.h"`
+## Install
+
+Clone the repository from master
+```bash
+git clone https:// github.com/ReCpp/UKRlib.git
+```
+
+## Using
+Include the need headers
+```cpp
+#include "ukrlib.h" // All
+#include "ukr-ctime" // If you want only `ctime` (for example)
+```
+
+***
+
+## Todo
+* [x] Add all keywords and built-in names
+* [ ] Add all standart libraries
+* [ ] Autoconvertor ordinary C++ code into Ukrainian language and vice versa
+* [ ] Excluding by config

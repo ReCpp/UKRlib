@@ -1,43 +1,43 @@
-//std::list
-//-------------------------------------------------------
-#define list список
-//-------------------------------------------------------
+// std::list
+// -------------------------------------------------------
+#define список list
+// -------------------------------------------------------
 //
-//Elements access
-#define front перед
-#define back назад
+// Elements access
+#define перед front
+#define назад back
 
-//-------------------------------------------------------
+// -------------------------------------------------------
 //
-//Iterators
-#define begin почати
-#define end кінець
-#define rend //?
+// Iterators
+#define почати begin
+#define кінець end
+#define PATTERN_WILL_BE_ADDED_LATER rend // ?
 
-//Capacity
-#define empty порожній
-#define size розмір
-#define max_size макс_розмір
+// Capacity
+#define порожній empty
+#define розмір size
+#define макс_розмір max_size
 
-//Modifiers
-#define clear очистити
-#define insert вставити
-#define emplace //?
-#define erase стерти
-#define push_back відсунути
-#define emplace_back
-#define pop_back відскочити_назад
-#define push_front
-#define emplace_front //?
-#define pop_front
-#define resize змінити_розмір
-#define swap своп
+// Modifiers
+#define очистити clear
+#define вставити insert
+#define ф// emplace ?
+#define стерти erase
+#define відсунути push_back
+#define PATTERN_WILL_BE_ADDED_LATER emplace_back
+#define відскочити_назад pop_back
+#define PATTERN_WILL_BE_ADDED_LATER push_front
+#define // emplace_front ?
+#define PATTERN_WILL_BE_ADDED_LATER pop_front
+#define змінити_розмір resize
+#define своп swap
 
-//Operations
-#define merge
-#define splice
-#define remove
-#define remove_if
-#define reverse
-#define unique
-#define sort
+// Operations
+#define PATTERN_WILL_BE_ADDED_LATER merge
+#define PATTERN_WILL_BE_ADDED_LATER splice
+#define PATTERN_WILL_BE_ADDED_LATER remove
+#define PATTERN_WILL_BE_ADDED_LATER remove_if
+#define PATTERN_WILL_BE_ADDED_LATER reverse
+#define PATTERN_WILL_BE_ADDED_LATER unique
+#define PATTERN_WILL_BE_ADDED_LATER sort
